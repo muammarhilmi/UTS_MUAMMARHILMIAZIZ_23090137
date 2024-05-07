@@ -1,11 +1,11 @@
 def hitung():
     berat = int(input('Masukkan Berat Badan (Kg): '))
-    tinggi = int(input('Masukkan Tinggi Badan (M): '))
-    bmi berat / (tinggi ** 2)
+    tinggi = float(input('Masukkan Tinggi Badan (M): '))
+    bmi = berat / (tinggi ** 2)
     print('Berat Badan : ',berat)
     print('Tinggi Badan : ', tinggi)
     print('Nilai BMI Anda :',bmi)
-    if bmi 18.5:
+    if bmi < 18.5:
         print('Kategori BMI : Berat Badan Kurang')
     elif 18.5<=bmi<24.9:
         print('Kategori BMI: Berat Badan Normal')
